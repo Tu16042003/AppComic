@@ -70,7 +70,7 @@ try {
         if ($res) {
             echo json_encode(array(
                 "status" => true,
-                "message" => "Đăng ký thành công."
+                "message" => "Vào email để xác thực đê."
             ));
         } else {
             echo json_encode(array(
